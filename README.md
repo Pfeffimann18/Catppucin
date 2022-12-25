@@ -19,7 +19,6 @@
 
 <details>
 <summary>🌻 Latte</summary>
-
 | |Labels|Hex|RGB|HSL|
 |:---:|:---:|:---:|:---:|:---:|
 |<img src="assets/palette/circles/latte_rosewater.png" height="23" width="23"/>|Rosewater|`#dc8a78`|`rgb(220, 138, 120)`|`hsl(11, 59%, 67%)`|
@@ -48,12 +47,10 @@
 |<img src="assets/palette/circles/latte_base.png" height="23" width="23"/>|Base|`#eff1f5`|`rgb(239, 241, 245)`|`hsl(220, 23%, 95%)`|
 |<img src="assets/palette/circles/latte_mantle.png" height="23" width="23"/>|Mantle|`#e6e9ef`|`rgb(230, 233, 239)`|`hsl(220, 22%, 92%)`|
 |<img src="assets/palette/circles/latte_crust.png" height="23" width="23"/>|Crust|`#dce0e8`|`rgb(220, 224, 232)`|`hsl(220, 21%, 89%)`|
-
 </details>
 
 <details>
 <summary>🪴 Frappé</summary>
-
 | |Labels|Hex|RGB|HSL|
 |:---:|:---:|:---:|:---:|:---:|
 |<img src="assets/palette/circles/frappe_rosewater.png" height="23" width="23"/>|Rosewater|`#f2d5cf`|`rgb(242, 213, 207)`|`hsl(10, 57%, 88%)`|
@@ -82,12 +79,10 @@
 |<img src="assets/palette/circles/frappe_base.png" height="23" width="23"/>|Base|`#303446`|`rgb(48, 52, 70)`|`hsl(229, 19%, 23%)`|
 |<img src="assets/palette/circles/frappe_mantle.png" height="23" width="23"/>|Mantle|`#292c3c`|`rgb(41, 44, 60)`|`hsl(231, 19%, 20%)`|
 |<img src="assets/palette/circles/frappe_crust.png" height="23" width="23"/>|Crust|`#232634`|`rgb(35, 38, 52)`|`hsl(229, 20%, 17%)`|
-
 </details>
 
 <details>
 <summary>🌺 Macchiato</summary>
-
 | |Labels|Hex|RGB|HSL|
 |:---:|:---:|:---:|:---:|:---:|
 |<img src="assets/palette/circles/macchiato_rosewater.png" height="23" width="23"/>|Rosewater|`#f4dbd6`|`rgb(244, 219, 214)`|`hsl(10, 58%, 90%)`|
@@ -116,12 +111,10 @@
 |<img src="assets/palette/circles/macchiato_base.png" height="23" width="23"/>|Base|`#24273a`|`rgb(36, 39, 58)`|`hsl(232, 23%, 18%)`|
 |<img src="assets/palette/circles/macchiato_mantle.png" height="23" width="23"/>|Mantle|`#1e2030`|`rgb(30, 32, 48)`|`hsl(233, 23%, 15%)`|
 |<img src="assets/palette/circles/macchiato_crust.png" height="23" width="23"/>|Crust|`#181926`|`rgb(24, 25, 38)`|`hsl(236, 23%, 12%)`|
-
 </details>
 
 <details>
 <summary>🌿 Mocha</summary>
-
 | |Labels|Hex|RGB|HSL|
 |:---:|:---:|:---:|:---:|:---:|
 |<img src="assets/palette/circles/mocha_rosewater.png" height="23" width="23"/>|Rosewater|`#f5e0dc`|`rgb(245, 224, 220)`|`hsl(10, 56%, 91%)`|
@@ -150,13 +143,12 @@
 |<img src="assets/palette/circles/mocha_base.png" height="23" width="23"/>|Base|`#1e1e2e`|`rgb(30, 30, 46)`|`hsl(240, 21%, 15%)`|
 |<img src="assets/palette/circles/mocha_mantle.png" height="23" width="23"/>|Mantle|`#181825`|`rgb(24, 24, 37)`|`hsl(240, 21%, 12%)`|
 |<img src="assets/palette/circles/mocha_crust.png" height="23" width="23"/>|Crust|`#11111b`|`rgb(17, 17, 27)`|`hsl(240, 23%, 9%)`|
-
 </details>
 </br>
 
 # KDE-Plasma
 <p align="center">
-  <img src="https://github.com/catppuccin/kde/blob/main/assets/res.webp"/>
+  <img src="assets/KDE.webp"/>
 </p>
 
 ## Installation
@@ -190,14 +182,91 @@ You need a working internet connection for this to work. Make sure system settin
 
 # GTK
 <p align="center">
-  <img src="assets/res.webp"/>
+  <img src="assets/GTK.webp"/>
 </p>
 
-# Kvantum
-# i3
+```
+yay -S catppuccin-gtk-theme-latte
+yay -S catppuccin-gtk-theme-frappe
+yay -S catppuccin-gtk-theme-macchiato
+yay -S catppuccin-gtk-theme-mocha
+```
+## For gtk-4.0 users
+To theme gtk-4.0 applications you have to manually symlink the `~/.config/gtk-4.0/` to the themes folder. Use the following commands
+```
+mkdir -p "${HOME}/.config/gtk-4.0"
+ln -sf "${THEME_DIR}/gtk-4.0/assets" "${HOME}/.config/gtk-4.0/assets"
+ln -sf "${THEME_DIR}/gtk-4.0/gtk.css" "${HOME}/.config/gtk-4.0/gtk.css"
+ln -sf "${THEME_DIR}/gtk-4.0/gtk-dark.css" "${HOME}/.config/gtk-4.0/gtk-dark.css"
+```
+</br>
 
+# Kvantum
+<p align="center">
+  <img src="assets/kvantum.png"/>
+</p>
+
+Einfach den Kvantum-Manager öffnen und das gewünschte Thema auswählen.
+</br>
+
+# i3
+<p align="center">
+  <img src="assets/i3.webp"/>
+</p>
+
+## Usage
+
+1. Download the file with your desired flavour e.g. `catppuccin-mocha` (to be
+   found in the release or after cloning the repository in themes/)
+2. Copy it into your i3 or sway config directory (usually `~/.config/i3/` or
+   `~/.config/sway/`)
+3. Include the file at the top of your `config`:
+
+```i3config
+include catppuccin-mocha
+```
+
+4. When editing the config, use the
+   [name of the colour](https://github.com/catppuccin/catppuccin#-palettes) such
+   as `$base`.
+
+```i3config
+# target                 title     bg    text   indicator  border
+client.focused           $pink     $base $text  $rosewater $pink
+client.focused_inactive  $mauve    $base $text  $rosewater $mauve
+client.unfocused         $mauve    $base $text  $rosewater $mauve
+client.urgent            $peach    $base $peach $overlay0  $peach
+client.placeholder       $overlay0 $base $text  $overlay0  $overlay0
+client.background        $base
+```
+</br>
 
 # geany
+<p align="center">
+  <img src="assets/Geany.webp"/>
+</p>
+
+## Installation
+
+### Manual <kbd>(Linux/MacOS)</kbd>
+
+```bash
+git clone https://github.com/catppuccin/geany
+cd geany/src
+mkdir ~/.config/geany/colorschemes/
+cp *.conf ~/.config/geany/colorschemes/
+```
+### Windows installation <kbd>(Manual)</kbd>
+* Download or clone this repository (`git clone https://github.com/catppuccin/geany`)
+* Open ***File Explorer*** as Administrator
+* Go to the `src` folder then copy <kbd>catppuccin-*flavour*.conf</kbd> to `C:\Program Files\Geany\data\colorschemes\`
+
+## Apply
+
+1. Open Geany
+2. Go to the `view` tab >> `Change color scheme` >> pick your desired `Catppuccin Flavour`
+</br>
+
 # VSCode
 # btop
 # Spicetify
