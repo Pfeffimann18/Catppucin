@@ -240,8 +240,10 @@ client.placeholder       $overlay0 $base $text  $overlay0  $overlay0
 client.background        $base
 ```
 </br>
+</br>
+</br>
 
-# geany
+# Geany
 <p align="center">
   <img src="assets/Geany.webp"/>
 </p>
@@ -267,19 +269,90 @@ cp *.conf ~/.config/geany/colorschemes/
 2. Go to the `view` tab >> `Change color scheme` >> pick your desired `Catppuccin Flavour`
 </br>
 
-# VSCode
+# Visual Studio Code
+<p align="center">
+  <img src="assets/vscode.webp"/>
+</p>
+
+Install the Extensions: [Marketplace](https://marketplace.visualstudio.com/items?itemName=Catppuccin.catppuccin-vsc).
+</br>
+
 # btop
+<p align="center">
+  <img src="assets/btop.webp"/>
+</p>
+
+## Usage
+
+1. Clone this repository locally
+2. Copy all themes to `$XDG_CONFIG_HOME/btop/themes/`
+3. Launch btop and press <kbd>Esc</kbd> and select "Options"
+4. Pick your favourite flavour as your colour theme
+
+Note: If `$XDG_CONFIG_HOME` is not set or empty, it defaults to `~/.config`
+</br>
+</br>
+</br>
+
 # Spicetify
+<p align="center">
+  <img src="assets/spicetify.webp"/>
+</p>
+
+## Usage
+
+1. Follow the installation instructions for [Spicetify](https://spicetify.app/docs/getting-started)
+   * Note: The installation instructions for linux have you setting `/opt/spotify` and `/opt/spotify/Apps/*` permissions to `777`. This is not good practice and should be avoided. If you want, you can set the group ownership for these paths to one that your user is apart of (i.e. `users`), or you can create a new group and add it as a secondary group to your user. After that you can use the following command to give access to the group:
+      ```
+      GROUP=<group_name>
+      sudo chgrp $GROUP /opt/spotify
+      sudo chgrp -R $GROUP /opt/spotify/Apps
+      sudo chmod 775 /opt/spotify
+      sudo chmod 775 -R /opt/spotify/Apps
+      ```
+2. Follow the [installation and basic usage guide](https://spicetify.app/docs/getting-started) to setup Spicetify
+
+3. Clone the repository. There are 4 flavours for this theme: `mocha`, `macchiato`, `frappe` and `latte`. All themes are present in their specific folders. Move the theme folders as well as the extensions to spicetify's config directory by running:
+      ```
+      cp -r catppuccin-* ~/.config/spicetify/Themes/
+      cp js/* ~/.config/spicetify/Extensions/
+      ```
+
+4. Set theme and color scheme. Supported color schemes: `rosewater`, `flamingo`, `mauve`, `pink`, `maroon`, `red`, `peach`, `yellow`, `green`, `teal`, `blue`, `sky`, `lavender`. Example: the `mocha` theme with `lavender` color scheme can be set as:
+   ```
+   spicetify config current_theme catppuccin-mocha
+   spicetify config color_scheme lavender
+   spicetify config inject_css 1 replace_colors 1 overwrite_assets 1
+   spicetify config extensions catppuccin-mocha.js
+   ```
+5. If you want to update the theme without opening it up run `spicetify update`. If you want to update the theme and open/restart Spotify at the same time run `spicetify apply`
+6. When changing the theme, remember to change the JS extension to the appropriate theme flavour. Extensions can be removed by running `spicetify config extensions catppuccin-<flavour-name>.js` Example: `spicetify config extensions catppuccin-mocha.js`. Then after changing to your new theme, enable the appropriate extension by running `spicetify config extensions catppuccin-<flavour-name>.js` 
+</br>
+
 # Thunderbird
+## Usage
+
+1. Clone this repository
+2. Open Thunderbird, go to `Menu > Add-ons and Themes`
+3. Click on the gear icon at the top-right corner and then select "Install Add-on From File..."
+4. Select a theme of choice from `themes` folder of downloaded repository, i.e. `Catppuccin-Mocha-Lavender.xpi`
+</br>
+</br>
+</br>
 
 # Alacritty
 # Konsole
+</br>
+</br>
+</br>
 
 # GitHub
 # Firefox
 # DuckDuckGo
 # Youtube
-
+</br>
+</br>
+</br>
 
 # Plank
 # Polybar
