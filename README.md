@@ -150,7 +150,7 @@
 </details>
 </br>
 
-# KDE-Plasma
+# [KDE-Plasma](https://github.com/catppuccin/kde)
 <p align="center">
   <img src="assets/KDE.webp"/>
 </p>
@@ -184,7 +184,7 @@ You need a working internet connection for this to work. Make sure system settin
 3. Run the installation commands again, replacing `kpackagetool5 -i` with `kpackagetool5 -u`
 </br>
 
-# GTK
+# [GTK](https://github.com/catppuccin/gtk)
 <p align="center">
   <img src="assets/GTK.webp"/>
 </p>
@@ -205,7 +205,7 @@ ln -sf "${THEME_DIR}/gtk-4.0/gtk-dark.css" "${HOME}/.config/gtk-4.0/gtk-dark.css
 ```
 </br>
 
-# Kvantum
+# [Kvantum](https://github.com/catppuccin/kvantum)
 <p align="center">
   <img src="assets/kvantum.png"/>
 </p>
@@ -213,7 +213,7 @@ ln -sf "${THEME_DIR}/gtk-4.0/gtk-dark.css" "${HOME}/.config/gtk-4.0/gtk-dark.css
 Einfach den Kvantum-Manager öffnen und das gewünschte Thema auswählen.
 </br>
 
-# i3
+# [i3](https://github.com/catppuccin/i3)
 <p align="center">
   <img src="assets/i3.webp"/>
 </p>
@@ -247,7 +247,7 @@ client.background        $base
 </br>
 </br>
 
-# Geany
+# [Geany](https://github.com/catppuccin/geany)
 <p align="center">
   <img src="assets/Geany.webp"/>
 </p>
@@ -273,7 +273,7 @@ cp *.conf ~/.config/geany/colorschemes/
 2. Go to the `view` tab >> `Change color scheme` >> pick your desired `Catppuccin Flavour`
 </br>
 
-# Visual Studio Code
+# [Visual Studio Code](https://github.com/catppuccin/vscode)
 <p align="center">
   <img src="assets/vscode.webp"/>
 </p>
@@ -281,7 +281,7 @@ cp *.conf ~/.config/geany/colorschemes/
 Install the Extensions: [Marketplace](https://marketplace.visualstudio.com/items?itemName=Catppuccin.catppuccin-vsc).
 </br>
 
-# btop
+# [btop](https://github.com/catppuccin/btop)
 <p align="center">
   <img src="assets/btop.webp"/>
 </p>
@@ -298,7 +298,7 @@ Note: If `$XDG_CONFIG_HOME` is not set or empty, it defaults to `~/.config`
 </br>
 </br>
 
-# Spicetify
+# [Spicetify](https://github.com/catppuccin/spicetify)
 <p align="center">
   <img src="assets/spicetify.webp"/>
 </p>
@@ -333,7 +333,7 @@ Note: If `$XDG_CONFIG_HOME` is not set or empty, it defaults to `~/.config`
 6. When changing the theme, remember to change the JS extension to the appropriate theme flavour. Extensions can be removed by running `spicetify config extensions catppuccin-<flavour-name>.js` Example: `spicetify config extensions catppuccin-mocha.js`. Then after changing to your new theme, enable the appropriate extension by running `spicetify config extensions catppuccin-<flavour-name>.js` 
 </br>
 
-# Thunderbird
+# [Thunderbird](https://github.com/catppuccin/thunderbird)
 ## Usage
 
 1. Clone this repository
@@ -344,22 +344,22 @@ Note: If `$XDG_CONFIG_HOME` is not set or empty, it defaults to `~/.config`
 </br>
 </br>
 
-# Alacritty
-# Konsole
+# [Alacritty](https://github.com/catppuccin/alacritty)
+# [Konsole](https://github.com/catppuccin/konsole)
 </br>
 </br>
 </br>
 
-# GitHub
-# Firefox
-# DuckDuckGo
-# Youtube
+# [GitHub](https://github.com/catppuccin/github)
+# [Firefox](https://github.com/catppuccin/firefox)
+# [DuckDuckGo](https://github.com/catppuccin/duckduckgo)
+# [Youtube](https://github.com/catppuccin/youtube)
 </br>
 </br>
 </br>
 
-# Plank
-# Polybar
-# SDDM
-# Ulauncher
-# Wallpapers
+# [Plank](https://github.com/catppuccin/plank)
+# [Polybar](https://github.com/catppuccin/polybar)
+# [SDDM](https://github.com/catppuccin/sddm)
+# [Ulauncher](https://github.com/catppuccin/ulauncher)
+# [Wallpapers](https://github.com/catppuccin/wallpapers)
