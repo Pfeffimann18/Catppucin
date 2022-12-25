@@ -19,6 +19,7 @@
 
 <details>
 <summary>🌻 Latte</summary>
+
 | |Labels|Hex|RGB|HSL|
 |:---:|:---:|:---:|:---:|:---:|
 |<img src="assets/palette/circles/latte_rosewater.png" height="23" width="23"/>|Rosewater|`#dc8a78`|`rgb(220, 138, 120)`|`hsl(11, 59%, 67%)`|
@@ -51,6 +52,7 @@
 
 <details>
 <summary>🪴 Frappé</summary>
+
 | |Labels|Hex|RGB|HSL|
 |:---:|:---:|:---:|:---:|:---:|
 |<img src="assets/palette/circles/frappe_rosewater.png" height="23" width="23"/>|Rosewater|`#f2d5cf`|`rgb(242, 213, 207)`|`hsl(10, 57%, 88%)`|
@@ -83,6 +85,7 @@
 
 <details>
 <summary>🌺 Macchiato</summary>
+
 | |Labels|Hex|RGB|HSL|
 |:---:|:---:|:---:|:---:|:---:|
 |<img src="assets/palette/circles/macchiato_rosewater.png" height="23" width="23"/>|Rosewater|`#f4dbd6`|`rgb(244, 219, 214)`|`hsl(10, 58%, 90%)`|
@@ -115,6 +118,7 @@
 
 <details>
 <summary>🌿 Mocha</summary>
+
 | |Labels|Hex|RGB|HSL|
 |:---:|:---:|:---:|:---:|:---:|
 |<img src="assets/palette/circles/mocha_rosewater.png" height="23" width="23"/>|Rosewater|`#f5e0dc`|`rgb(245, 224, 220)`|`hsl(10, 56%, 91%)`|
