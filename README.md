@@ -19,197 +19,36 @@
 
 <details>
 <summary>🌻 Latte</summary>
-<table>
-	<tr>
-		<th></th>
-		<th>Labels</th>
-		<th>Hex</th>
-		<th>RGB</th>
-		<th>HSL</th>
-	</tr>
-	<tr>
-		<td><img src="assets/palette/circles/latte_rosewater.png" height="23" width="23"/></td>
-		<td>Rosewater</td>
-		<td><code>#dc8a78</code></td>
-		<td><code>rgb(220, 138, 120)</code></td>
-		<td><code>hsl(11, 59%, 67%)</code></td>
-	</tr>
-	<tr>
-		<td><img src="assets/palette/circles/latte_flamingo.png" height="23" width="23"/></td>
-		<td>Flamingo</td>
-		<td><code>#dd7878</code></td>
-		<td><code>rgb(221, 120, 120)</code></td>
-		<td><code>hsl(0, 60%, 67%)</code></td>
-	</tr>
-	<tr>
-		<td><img src="assets/palette/circles/latte_pink.png" height="23" width="23"/></td>
-		<td>Pink</td>
-		<td><code>#ea76cb</code></td>
-		<td><code>rgb(234, 118, 203)</code></td>
-		<td><code>hsl(316, 73%, 69%)</code></td>
-	</tr>
-	<tr>
-		<td><img src="assets/palette/circles/latte_mauve.png" height="23" width="23"/></td>
-		<td>Mauve</td>
-		<td><code>#8839ef</code></td>
-		<td><code>rgb(136, 57, 239)</code></td>
-		<td><code>hsl(266, 85%, 58%)</code></td>
-	</tr>
-	<tr>
-		<td><img src="assets/palette/circles/latte_red.png" height="23" width="23"/></td>
-		<td>Red</td>
-		<td><code>#d20f39</code></td>
-		<td><code>rgb(210, 15, 57)</code></td>
-		<td><code>hsl(347, 87%, 44%)</code></td>
-	</tr>
-	<tr>
-		<td><img src="assets/palette/circles/latte_maroon.png" height="23" width="23"/></td>
-		<td>Maroon</td>
-		<td><code>#e64553</code></td>
-		<td><code>rgb(230, 69, 83)</code></td>
-		<td><code>hsl(355, 76%, 59%)</code></td>
-	</tr>
-	<tr>
-		<td><img src="assets/palette/circles/latte_peach.png" height="23" width="23"/></td>
-		<td>Peach</td>
-		<td><code>#fe640b</code></td>
-		<td><code>rgb(254, 100, 11)</code></td>
-		<td><code>	hsl(22, 99%, 52%)</code></td>
-	</tr>
-	<tr>
-		<td><img src="assets/palette/circles/latte_yellow.png" height="23" width="23"/></td>
-		<td>Yellow</td>
-		<td><code>#df8e1d</code></td>
-		<td><code>rgb(223, 142, 29)</code></td>
-		<td><code>hsl(35, 77%, 49%)</code></td>
-	</tr>
-	<tr>
-		<td><img src="assets/palette/circles/latte_green.png" height="23" width="23"/></td>
-		<td>Green</td>
-		<td><code>#40a02b</code></td>
-		<td><code>rgb(64, 160, 43)</code></td>
-		<td><code>hsl(109, 58%, 40%)</code></td>
-	</tr>
-	<tr>
-		<td><img src="assets/palette/circles/latte_teal.png" height="23" width="23"/></td>
-		<td>Teal</td>
-		<td><code>#179299</code></td>
-		<td><code>rgb(23, 146, 153)</code></td>
-		<td><code>hsl(183, 74%, 35%)</code></td>
-	</tr>
-	<tr>
-		<td><img src="assets/palette/circles/latte_sky.png" height="23" width="23"/></td>
-		<td>Sky</td>
-		<td><code>#04a5e5</code></td>
-		<td><code>rgb(4, 165, 229)</code></td>
-		<td><code>hsl(197, 97%, 46%)</code></td>
-	</tr>
-	<tr>
-		<td><img src="assets/palette/circles/latte_sapphire.png" height="23" width="23"/></td>
-		<td>Sapphire</td>
-		<td><code>#209fb5</code></td>
-		<td><code>rgb(32, 159, 181)</code></td>
-		<td><code>hsl(189, 70%, 42%)</code></td>
-	</tr>
-	<tr>
-		<td><img src="assets/palette/circles/latte_blue.png" height="23" width="23"/></td>
-		<td>Blue</td>
-		<td><code>#1e66f5</code></td>
-		<td><code>rgb(30, 102, 245)</code></td>
-		<td><code>hsl(220, 91%, 54%)</code></td>
-	</tr>
-	<tr>
-		<td><img src="assets/palette/circles/latte_lavender.png" height="23" width="23"/></td>
-		<td>Lavender</td>
-		<td><code>#7287fd</code></td>
-		<td><code>rgb(114, 135, 253)</code></td>
-		<td><code>hsl(231, 97%, 72%)</code></td>
-	</tr>
-	<tr>
-		<td><img src="assets/palette/circles/latte_text.png" height="23" width="23"/></td>
-		<td>Text</td>
-		<td><code>#4c4f69</code></td>
-		<td><code>rgb(76, 79, 105)</code></td>
-		<td><code>hsl(234, 16%, 35%)</code></td>
-	</tr>
-	<tr>
-		<td><img src="assets/palette/circles/latte_subtext1.png" height="23" width="23"/></td>
-		<td>Subtext1</td>
-		<td><code>#5c5f77</code></td>
-		<td><code>rgb(92, 95, 119)</code></td>
-		<td><code>hsl(233, 13%, 41%)</code></td>
-	</tr>
-	<tr>
-		<td><img src="assets/palette/circles/latte_subtext0.png" height="23" width="23"/></td>
-		<td>Subtext0</td>
-		<td><code>#6c6f85</code></td>
-		<td><code>rgb(108, 111, 133)</code></td>
-		<td><code>hsl(233, 10%, 47%)</code></td>
-	</tr>
-	<tr>
-		<td><img src="assets/palette/circles/latte_overlay2.png" height="23" width="23"/></td>
-		<td>Overlay2</td>
-		<td><code>#7c7f93</code></td>
-		<td><code>rgb(124, 127, 147)</code></td>
-		<td><code>hsl(232, 10%, 53%)</code></td>
-	</tr>
-	<tr>
-		<td><img src="assets/palette/circles/latte_overlay1.png" height="23" width="23"/></td>
-		<td>Overlay1</td>
-		<td><code>#8c8fa1</code></td>
-		<td><code>rgb(140, 143, 161)</code></td>
-		<td><code>hsl(231, 10%, 59%)</code></td>
-	</tr>
-	<tr>
-		<td><img src="assets/palette/circles/latte_overlay0.png" height="23" width="23"/></td>
-		<td>Overlay0</td>
-		<td><code>#9ca0b0</code></td>
-		<td><code>rgb(156, 160, 176)</code></td>
-		<td><code>hsl(228, 11%, 65%)</code></td>
-	</tr>
-	<tr>
-		<td><img src="assets/palette/circles/latte_surface2.png" height="23" width="23"/></td>
-		<td>Surface2</td>
-		<td><code>#acb0be</code></td>
-		<td><code>rgb(172, 176, 190)</code></td>
-		<td><code>hsl(227, 12%, 71%)</code></td>
-	</tr>
-	<tr>
-		<td><img src="assets/palette/circles/latte_surface1.png" height="23" width="23"/></td>
-		<td>Surface1</td>
-		<td><code>#bcc0cc</code></td>
-		<td><code>rgb(188, 192, 204)</code></td>
-		<td><code>hsl(225, 14%, 77%)</code></td>
-	</tr>
-	<tr>
-		<td><img src="assets/palette/circles/latte_surface0.png" height="23" width="23"/></td>
-		<td>Surface0</td>
-		<td><code>#ccd0da</code></td>
-		<td><code>rgb(204, 208, 218)</code></td>
-		<td><code>hsl(223, 16%, 83%)</code></td>
-	</tr>
-	<tr>
-		<td><img src="assets/palette/circles/latte_base.png" height="23" width="23"/></td>
-		<td>Base</td>
-		<td><code>#eff1f5</code></td>
-		<td><code>rgb(239, 241, 245)</code></td>
-		<td><code>hsl(220, 23%, 95%)</code></td>
-	</tr>
-	<tr>
-		<td><img src="assets/palette/circles/latte_mantle.png" height="23" width="23"/></td>
-		<td>Mantle</td>
-		<td><code>#e6e9ef</code></td>
-		<td><code>rgb(230, 233, 239)</code></td>
-		<td><code>hsl(220, 22%, 92%)</code></td>
-	</tr>
-	<tr>
-		<td><img src="assets/palette/circles/latte_crust.png" height="23" width="23"/></td>
-		<td>Crust</td>
-		<td><code>#dce0e8</code></td>
-		<td><code>rgb(220, 224, 232)</code></td>
-		<td><code>hsl(220, 21%, 89%)</code></td>
-	</tr>
-</table>
+
+| |Labels|Hex|RGB|HSL|
+|:---:|:---:|:---:|:---:|:---:|
+|![](assets/palette/circles/latte_rosewater.png)|Rosewater|`#dc8a78`|`rgb(220, 138, 120)`|`hsl(11, 59%, 67%)`|
+|![](assets/palette/circles/latte_flamingo.png)|Flamingo|`#dd7878`|`rgb(221, 120, 120)`|`hsl(0, 60%, 67%)`|
+|![](assets/palette/circles/latte_pink.png)|Pink|`#ea76cb`|`rgb(234, 118, 203)`|`hsl(316, 73%, 69%)`|
+|![](assets/palette/circles/latte_mauve.png)|Mauve|`#8839ef`|`rgb(136, 57, 239)`|`hsl(266, 85%, 58%)`|
+|![](assets/palette/circles/latte_red.png)|Red|`#d20f39`|`rgb(210, 15, 57)`|`hsl(347, 87%, 44%)`|
+|![](assets/palette/circles/latte_maroon.png)|Maroon|`#e64553`|`rgb(230, 69, 83)`|`hsl(355, 76%, 59%)`|
+|![](assets/palette/circles/latte_peach.png)|Peach|`#fe640b`|`rgb(254, 100, 11)`|`	hsl(22, 99%, 52%)`|
+|![](assets/palette/circles/latte_yellow.png)|Yellow|`#df8e1d`|`rgb(223, 142, 29)`|`hsl(35, 77%, 49%)`|
+|![](assets/palette/circles/latte_green.png)|Green|`#40a02b`|`rgb(64, 160, 43)`|`hsl(109, 58%, 40%)`|
+|![](assets/palette/circles/latte_teal.png)|Teal|`#179299`|`rgb(23, 146, 153)`|`hsl(183, 74%, 35%)`|
+|![](assets/palette/circles/latte_sky.png)|Sky|`#04a5e5`|`rgb(4, 165, 229)`|`hsl(197, 97%, 46%)`|
+|![](assets/palette/circles/latte_sapphire.png)|Sapphire|`#209fb5`|`rgb(32, 159, 181)`|`hsl(189, 70%, 42%)`|
+|![](assets/palette/circles/latte_blue.png)|Blue|`#1e66f5`|`rgb(30, 102, 245)`|`hsl(220, 91%, 54%)`|
+|![](assets/palette/circles/latte_lavender.png)|Lavender|`#7287fd`|`rgb(114, 135, 253)`|`hsl(231, 97%, 72%)`|
+|![](assets/palette/circles/latte_text.png)|Text|`#4c4f69`|`rgb(76, 79, 105)`|`hsl(234, 16%, 35%)`|
+|![](assets/palette/circles/latte_subtext1.png)|Subtext1|`#5c5f77`|`rgb(92, 95, 119)`|`hsl(233, 13%, 41%)`|
+|![](assets/palette/circles/latte_subtext0.png)|Subtext0|`#6c6f85`|`rgb(108, 111, 133)`|`hsl(233, 10%, 47%)`|
+|![](assets/palette/circles/latte_overlay2.png)|Overlay2|`#7c7f93`|`rgb(124, 127, 147)`|`hsl(232, 10%, 53%)`|
+|![](assets/palette/circles/latte_overlay1.png)|Overlay1|`#8c8fa1`|`rgb(140, 143, 161)`|`hsl(231, 10%, 59%)`|
+|![](assets/palette/circles/latte_overlay0.png)|Overlay0|`#9ca0b0`|`rgb(156, 160, 176)`|`hsl(228, 11%, 65%)`|
+|![](assets/palette/circles/latte_surface2.png)|Surface2|`#acb0be`|`rgb(172, 176, 190)`|`hsl(227, 12%, 71%)`|
+|![](assets/palette/circles/latte_surface1.png)|Surface1|`#bcc0cc`|`rgb(188, 192, 204)`|`hsl(225, 14%, 77%)`|
+|![](assets/palette/circles/latte_surface0.png)|Surface0|`#ccd0da`|`rgb(204, 208, 218)`|`hsl(223, 16%, 83%)`|
+|![](assets/palette/circles/latte_base.png)|Base|`#eff1f5`|`rgb(239, 241, 245)`|`hsl(220, 23%, 95%)`|
+|![](assets/palette/circles/latte_mantle.png)|Mantle|`#e6e9ef`|`rgb(230, 233, 239)`|`hsl(220, 22%, 92%)`|
+|![](assets/palette/circles/latte_crust.png)|Crust|`#dce0e8`|`rgb(220, 224, 232)`|`hsl(220, 21%, 89%)`|
+
 </details>
 
 <details>
@@ -796,3 +635,68 @@
 	</tr>
 </table>
 </details>
+</br>
+
+# KDE-Plasma
+<p align="center">
+  <img src="https://github.com/catppuccin/kde/blob/main/assets/res.webp"/>
+</p>
+
+## Installation
+
+1. `mkdir -p ~/.local/share/color-schemes`
+2. `git clone https://github.com/catppuccin/kde catppuccin-kde`
+
+### Install all flavors
+1. `cd catppuccin-kde`
+2. `find . -type f -name "*.colors" -exec cp "{}" ~/.local/share/color-schemes \;`
+3. `find . -type f -name "*.tar.gz" -exec kpackagetool5 -i "{}" \;`  
+You need a working internet connection for this to work. Make sure system settings is not running.
+
+### Install one flavor
+1. `cd catppuccin-kde/<your chosen flavor>`
+2. `cp Catppuccin*.colors ~/.local/share/color-schemes/`
+3. `kpackagetool5 -i Catppuccin-*.tar.gz`  
+You need a working internet connection for this to work. Make sure system settings is not running.
+4. `lookandfeeltool -a Catppuccin-<flavor>` or alternatively open system settings and choose the global theme
+
+### Notes
+1. To get a material-like look, install [Lightly application style](https://github.com/Luwx/Lightly) and select it from System Settings > Appearance >  Application Style > Lightly.
+2. If you do not like the new icon for the application launcher set by the Lightly Plasma theme, simply delete `~/.local/share/plasma/desktoptheme/lightly-plasma-git/icons`. This will make it switch to the default.
+
+## Update
+
+1. `cd catppuccin-kde`
+2. `git pull`
+3. Run the installation commands again, replacing `kpackagetool5 -i` with `kpackagetool5 -u`
+</br>
+
+# GTK
+<p align="center">
+  <img src="assets/res.webp"/>
+</p>
+
+# Kvantum
+# i3
+
+
+# geany
+# VSCode
+# btop
+# Spicetify
+# Thunderbird
+
+# Alacritty
+# Konsole
+
+# GitHub
+# Firefox
+# DuckDuckGo
+# Youtube
+
+
+# Plank
+# Polybar
+# SDDM
+# Ulauncher
+# Wallpapers
