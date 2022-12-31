@@ -346,6 +346,7 @@ Note: If `$XDG_CONFIG_HOME` is not set or empty, it defaults to `~/.config`
 
 # [Alacritty](https://github.com/catppuccin/alacritty)
 # [Konsole](https://github.com/catppuccin/konsole)
+# [dmenu](https://github.com/catppuccin/dmenu)
 </br>
 </br>
 </br>
