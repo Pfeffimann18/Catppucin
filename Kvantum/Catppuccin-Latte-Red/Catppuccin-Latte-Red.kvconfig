@@ -413,6 +413,7 @@ text.margin.right=3
 [ComboBox]
 inherits=PanelButtonCommand
 indicator.size=8
+indicator.element=comboarrow
 frame.top=3
 frame.bottom=3
 frame.left=3
