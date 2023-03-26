@@ -1,0 +1,15 @@
+[kdeglobals][General]
+ColorScheme=Catppuccin--flavour--accentName
+
+[kwinrc][org.kde.kdecoration2]
+library=org.kde.kwin.aurorae
+theme=--aurorae
+ButtonsOnLeft=
+ButtonsOnRight=IAX
+BorderSize=None
+
+[plasmarc][Theme]
+name=lightly-plasma-git
+
+[KSplash]
+Theme=Catppuccin--flavour--accentName
